@@ -38,11 +38,15 @@ export default function Home() {
           </h2>
           <p></p>
         </a>
-
         <a href="/contact" className={styles.card} rel="noopener noreferrer">
           <h2>
             Contacts <span>-&gt;</span>
           </h2>
+        </a>
+      </div>
+      <div>
+        <a href="/legal">
+          <p style={{ fontSize: 16 }}>Mentions légales</p>
         </a>
       </div>
     </main>
