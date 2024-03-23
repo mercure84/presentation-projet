@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.sautillement {
+  position: relative;
+  animation: saut 2s infinite alternate;
+}
+
+@keyframes saut {
+  0% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(
+      -30px
+    ); /* Modifier la valeur de translateX selon votre préférence */
+  }
+}
